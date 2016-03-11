@@ -2,18 +2,25 @@
 <html>
 	<head>
 		<title>Purotu | Salon &amp; Boutique</title>
+
+		<!-- JS and jQuery Sheets -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="js/smooth-scroll.js"></script>
-		<script src="nav-animation"></script>
+		<script src="nav-animation.js"></script>
+
+		<!-- CSS Sheets -->
 		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/nav.css">
 	</head>
 
 	<body>
 		<!-- Navigation -->
 		<nav>
-		  	<div class='container'>
+		  	<div class='navContainer'>
 		    	<div class='fontawesome-cog' id='icon'></div>
 		    	<ul>
 		      		<li><a href="#aboutSection">About</a></li>
@@ -27,23 +34,24 @@
 		
 		<!-- Hero Image -->
 		<header>
-  			<div class='container'>
+  			<div class='navContainer'>
     			<h1>Purotu Salon &amp; Boutique</h1>
   			</div>
 		</header>
 
 		<div id='nav-bg'></div>
 		
-		<section id='aboutSection'>
-  			<div class='container'>
-    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel diam lacus. Nam quis ipsum nec massa sagittis scelerisque ac non urna. Phasellus posuere orci ac tellus interdum mollis eu vitae mi. Aliquam nec ante lobortis, suscipit lectus eu, dignissim ante. Nam imperdiet quis eros.</p>
+		<!-- About Section -->
+		<section id='aboutSection' class="row">
+  			<div class="col-span1"></div>
+  			<div class="col-span10">
+  				<h1>ABOUT</h1>
 
-    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel diam lacus. Nam quis ipsum nec massa sagittis scelerisque ac non urna. Phasellus posuere orci ac tellus interdum mollis eu vitae mi. Aliquam nec ante lobortis, suscipit lectus eu, dignissim ante. Nam imperdiet quis eros.</p>
+  				<p>Purotu means beautiful in Tahitian. Purotu's objective is to be recognized as the beauty salon that provides the finest products and personalized service.</p>
 
-    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel diam lacus. Nam quis ipsum nec massa sagittis scelerisque ac non urna. Phasellus posuere orci ac tellus interdum mollis eu vitae mi. Aliquam nec ante lobortis, suscipit lectus eu, dignissim ante. Nam imperdiet quis eros.</p>
-
-    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel diam lacus. Nam quis ipsum nec massa sagittis scelerisque ac non urna. Phasellus posuere orci ac tellus interdum mollis eu vitae mi. Aliquam nec ante lobortis, suscipit lectus eu, dignissim ante. Nam imperdiet quis eros.</p>
+				<p>Purotu offers a paradox of open space and intimacy. Located in Frenchtown, New Jersey, the salon not only provides a comfortable atmosphere inside for our clients but a wonderful outside experience with all the tremendous shops and restaurants next door.</p>
   			</div>
+  			<div class="col-span1"></div>
 		</section>
 
 		<section id='hairSection'>
