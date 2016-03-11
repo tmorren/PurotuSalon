@@ -1,66 +1,94 @@
-.navContainer{
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 0 2em;
-}
+/* Mobile Menu Styling */
+  #mobile-icon{
+    display: none;
+  }
 
-nav {
-  position: fixed;
-  width: 100%;
-  margin: 0 auto;
-  top: 0;
-  z-index: 3;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  float: right;
-}
-nav li {
-  display: inline-block;
-  padding: 2em;
-  text-align: center;
-  transition: all .2s;
-}
-nav li:last-child {
-  padding-right: 0;
-}
-nav a {
-  color: #FFF;
-  text-decoration: none;
-  transition: all .3s;
-}
-nav a:hover {
-  color: #DDD;
-}
+/* Desktop Menu Styling */
+  .navContainer{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 2em;
+  }
 
-#icon {
-  display: inline-block;
-  padding-top: .7em;
-  font-size: 2em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
+  nav {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    z-index: 3;
+  }
+  
+  #menuItems {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+  }
+  nav li {
+    display: inline-block;
+    padding: 2em;
+    text-align: center;
+    transition: all .2s;
+  }
+  nav li:last-child {
+    padding-right: 0;
+  }
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all .3s;
+  }
+  nav a:hover {
+    color: #DDD;
+  }
 
-#nav-bg {
-  background: #222;
-  position: fixed;
-  height: 5em;
-  width: 100%;
-  top: 0;
-  z-index: 1;
-}
+  #icon {
+    display: inline-block;
+    padding-top: .7em;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 
-header {
-  position: relative;
-  background-image: url("../img/cover-slider.jpg");
-  padding: 10em 0 8em;
-  z-index: 2;
-}
-header h1 {
-  font-size: 4em;
-  text-transform: uppercase;
-  text-align: center;
-  color: white;
+  #nav-bg {
+    background: #222;
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+
+  header {
+    position: relative;
+    background-image: url("../img/cover-slider.jpg");
+    padding: 10em 0 8em;
+    z-index: 2;
+  }
+  header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+
+/*****************************************/
+/* Toggle Menu depending on screen width */
+/*****************************************/
+@media (max-width: 1000px){
+
+  .navContainer{
+    height: 80px;
+  }
+
+  #menuItems{
+    display: none;
+  }
+
+  #mobile-icon{
+    display: block;
+    float: right;
+    padding-top: 1em;
+    cursor: pointer;
+  }
 }
