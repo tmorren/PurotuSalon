@@ -83,12 +83,23 @@
 
   #menuItems{
     display: none;
+    background-color: red;
+    position: relative;
+    top: 80px;
+    left: 12.5%;
+
+  }
+
+  #menuItems li{
+    display: block;
+    text-align: center;
   }
 
   #mobile-icon{
     display: block;
     float: right;
     padding-top: 1em;
+    padding-right: 2em;
     cursor: pointer;
   }
 }
