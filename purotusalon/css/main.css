@@ -1,26 +1,69 @@
 /* Importing Fonts */
   @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-  @import url(http://weloveiconfonts.com/api/?family=fontawesome);
-
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  
 /*General Styling */
 
   body {
     background: #222;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
   }
 
 /* About Section */
   #aboutSection {
-    background: #E7E3DA;
-    height: 70em;
+    background: white;
     text-align: center;
+
+    padding-top: 2em;
+    padding-bottom: 4em;
+  }
+
+  #aboutSection h1:first-child{
+    display: inline-block;
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 3px #333031;
+    margin-bottom: 1.5em;
+    padding: .5em;
+
+    background-color: #222;
+    color: white;
   }
 
   #aboutSection p {
-    line-height: 2em;
     font-size: 1.4em;
     margin: 0;
     color: #222;
+  }
+
+  #aboutSection ul{
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.1em;
+  }
+
+/* Hair Section */
+  #hairSection{
+    background: #89B487;
+  }
+
+  #hairSection .col-span12{
+    text-align: center;
+  }
+
+  #hairSection h1{
+    display: inline-block;
+    border: 2px solid #89B487;
+    box-shadow: 0px 0px 0px 3px #333031;
+    margin-bottom: 1.5em;
+    padding: .5em;
+
+    background-color: #222;
+    color: white;
   }

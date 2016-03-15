@@ -5,7 +5,7 @@ var range = 200;
 $(window).on('scroll', function () {
   
     var scrollTop = $(this).scrollTop();
-    var offset = header.offset().top;
+    var offset = header.offset();
     var height = header.outerHeight();
     offset = offset + height / 2;
     var calc = 1 - (scrollTop - offset + range) / range;
@@ -14,8 +14,10 @@ $(window).on('scroll', function () {
   
     if ( calc > '1' ) {
       header.css({ 'opacity': 1 });
+      console.log(calc);
     } else if ( calc < '0' ) {
       header.css({ 'opacity': 0 });
+      console.log(calc);
     }
   
 });

@@ -62,7 +62,7 @@
   header {
     position: relative;
     background-image: url("../img/cover-slider.jpg");
-    padding: 10em 0 8em;
+    padding: 10em 0 10em;
     z-index: 2;
   }
   header h1 {
@@ -70,6 +70,7 @@
     text-transform: uppercase;
     text-align: center;
     color: white;
+    overflow: hidden;
   }
 
 /*****************************************/
@@ -101,5 +102,13 @@
     padding-top: 1em;
     padding-right: 2em;
     cursor: pointer;
+  }
+
+  nav li:last-child {
+    padding: 2em;
+  }
+
+  header {
+    padding: 10em 0 15em;
   }
 }

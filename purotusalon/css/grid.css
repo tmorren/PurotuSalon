@@ -1,103 +1,91 @@
 .row{
 	width: 100%;
 	margin: 0;
-	border: 1px solid red;
 	overflow: hidden;
 	word-wrap: break-word;
 }
 
 .col-span1{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
-	width: 8.33333%;	
+	width: 8.33333%;
+	min-height: 1px;	
 }
 
 .col-span2{
 	float: left;
-
 	border: 1px solid green;
 	box-sizing: border-box;
-	width: 16.66666%;	
+	width: 16.66666%;
+	min-height: 1px;	
 }
 
 .col-span3{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 25%;
+	min-height: 1px;
 }
 
 .col-span4{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 33.33333%;
+	min-height: 1px;
 }
 
 .col-span5{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 41.66666%;
+	min-height: 1px;
 }
 
 .col-span6{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 50%;
+	min-height: 1px;
 }
 
 .col-span7{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 58.33333%;
+	min-height: 1px;
 }
 
 .col-span8{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 66.66666%;
+	min-height: 1px;
 }
 
 .col-span9{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 75%;
+	min-height: 1px;
 }
 
 .col-span10{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 83.33333%;
+	min-height: 1px;
 }
 
 .col-span11{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 91.66666%;
+	min-height: 1px;
 }
 
 .col-span12{
 	float: left;
-
-	border: 1px solid green;
 	box-sizing: border-box;
 	width: 100%;
+	min-height: 1px;
 }
