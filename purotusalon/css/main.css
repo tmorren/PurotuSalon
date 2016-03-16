@@ -16,7 +16,9 @@
     font-family: 'Montserrat';
   }
 
+/*****************/
 /* About Section */
+/*****************/
   #aboutSection {
     background: white;
     text-align: center;
@@ -48,18 +50,36 @@
     font-size: 1.1em;
   }
 
+  @media (max-width: 600px){
+    #aboutSection .col-span6{
+      text-align: center;
+      width: 100%;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
+/****************/
 /* Hair Section */
+/****************/
   #hairSection{
-    background: #89B487;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background: #F5F5DC;
   }
 
   #hairSection .col-span12{
     text-align: center;
   }
 
+  #hairSection ul{
+    font-size: 1.2em;
+    list-style: none;
+    padding-left: 0;
+  }
+
   #hairSection h1{
     display: inline-block;
-    border: 2px solid #89B487;
+    border: 2px solid #F5F5DC;
     box-shadow: 0px 0px 0px 3px #333031;
     margin-bottom: 1.5em;
     padding: .5em;
@@ -67,3 +87,79 @@
     background-color: #222;
     color: white;
   }
+
+  #hairSection h2{
+    text-transform: uppercase;
+  }
+
+  #hairSection img{
+    text-align: center;
+    max-width: 100%;
+  }
+
+  @media (max-width: 1000px){
+    #hairSection .col-span4{
+      text-align: center;
+      width: 100%;
+    }
+
+    #hairSection .col-span3{
+      width: 41.7777%;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 770px){
+    #hairSection .col-span3{
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+/*******************/
+/* Waxing Section**/
+/*****************/
+
+
+
+
+/*****************/
+/* Nail Section */
+/***************/
+  #nailSection{
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/nail-background.jpg');
+    height: 500px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+
+    color: white;
+  }
+
+  #nailSection h1:first-child{
+      display: inline-block;
+      border: 2px solid rgba(255, 255, 255, .5);
+      box-shadow: 0px 0px 0px 3px #333031;
+      margin-bottom: 1.5em;
+      padding: .5em;
+
+      background-color: #222;
+      color: white;
+  }
+
+  #nailSection ul{
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2em;
+  }
+
+  #nailSection h2{
+      text-transform: uppercase;
+  }
+
+  @media (max-width: 600px){
+      #aboutSection .col-span6{
+        text-align: center;
+        width: 100%;
+      }
+    }
