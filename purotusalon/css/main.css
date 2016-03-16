@@ -1,6 +1,7 @@
 /* Importing Fonts */
   @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
   
 /*General Styling */
 
@@ -117,26 +118,18 @@
   }
 
 /*******************/
-/* Waxing Section**/
+/* Nails & Waxing */
 /*****************/
-
-
-
-
-/*****************/
-/* Nail Section */
-/***************/
-  #nailSection{
+  #nailsAndWaxingSection{
     text-align: center;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/nail-background.jpg');
-    height: 500px;
     padding-top: 2em;
     padding-bottom: 4em;
 
     color: white;
   }
 
-  #nailSection h1:first-child{
+  #nailsAndWaxingSection h1:first-child{
       display: inline-block;
       border: 2px solid rgba(255, 255, 255, .5);
       box-shadow: 0px 0px 0px 3px #333031;
@@ -147,19 +140,115 @@
       color: white;
   }
 
-  #nailSection ul{
+  #nailsAndWaxingSection ul{
     list-style: none;
     padding-left: 0;
     font-size: 1.2em;
   }
 
-  #nailSection h2{
+  #nailsAndWaxingSection h2{
       text-transform: uppercase;
   }
 
   @media (max-width: 600px){
-      #aboutSection .col-span6{
+      #nailsAndWaxingSection .col-span6{
         text-align: center;
         width: 100%;
       }
-    }
+  }
+
+/********************/
+/* Contact Section */
+/******************/
+  #contactSection{
+    background-color: white;
+  }
+
+  #contactSection .col-span12{
+    text-align: center;
+  }
+
+  #contactSection h1:first-child{
+      display: inline-block;
+      border: 2px solid white;
+      box-shadow: 0px 0px 0px 3px #333031;
+      margin-bottom: 1.5em;
+      padding: .5em;
+
+      background-color: #222;
+      color: white;
+  }
+
+/*******************/
+/* Footer Section */
+/*****************/
+
+  footer{
+    line-height: .5em;
+    text-align: center;
+    padding: 1em;
+
+    color: white;
+  }
+
+  .social-icon {
+    color: #fff;
+  }
+
+  ul.social-icons { 
+    margin-top: 10px;
+    padding-left: 0;
+  }
+
+  .social-icons li {
+    vertical-align: top;
+    display: inline;
+  }
+
+  .social-icons a {
+    color: white; 
+    text-decoration: none;
+  }
+
+
+  .fa-facebook {
+    padding:10px 14px 7px 14px;
+    -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color:  #222;
+  }
+
+  .fa-facebook:hover {
+    background-color: #3d5b99;
+  }
+
+  .fa-twitter {
+    padding:10px 10px 7px 10px;
+    -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color:  #222;
+  }
+
+  .fa-twitter:hover {
+    background-color: #00aced;
+  }
+
+  .fa-google-plus {
+    padding:10px 10px 7px 10px;
+    -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #222;
+  }
+
+  .fa-google-plus:hover {
+    background-color: #e25714;
+  }
