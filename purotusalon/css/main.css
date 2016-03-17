@@ -166,6 +166,28 @@
     padding-bottom: 4em;
   }
 
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea{
+    padding: 0.6em 0.8em;
+    color: #bfbfbf;
+    background: #f7f7f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-style: italic;
+    -webkit-appearance: none;
+  }
+
   #contactSection .col-span12{
     text-align: center;
   }
@@ -183,6 +205,10 @@
 
   #contactSection #infoColumn{
     padding-left: 2em;
+  }
+
+  #contactSection textarea{
+    max-width: 90%;
   }
 
   @media (max-width: 1300px){
