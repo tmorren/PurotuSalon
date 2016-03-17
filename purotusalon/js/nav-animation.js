@@ -44,8 +44,10 @@ $(document).ready(function(){
     $("a").click( function(){
         if (window.innerWidth > 1000) {
             $('#menuItems').css({'display' : 'block'});
+            menuToggle = 1
         } else {
             $('#menuItems').css({'display' : 'none'});
+            menuToggle = 1
         }
     })
 });

@@ -78,22 +78,23 @@
 /*****************************************/
 @media (max-width: 1000px){
 
-  .navContainer{
-    height: 80px;
-  }
 
   #menuItems{
     display: none;
-    background-color: red;
+    background-color:  #222;
     position: relative;
     top: 80px;
     left: 12.5%;
-
   }
 
   #menuItems li{
     display: block;
     text-align: center;
+    transition: 1s;
+  }
+
+  #menuItems li:hover{
+    background-color: #333;
   }
 
   #mobile-icon{
@@ -109,6 +110,12 @@
   }
 
   header {
-    padding: 10em 0 15em;
+    padding: 10em 0 10em;
+  }
+}
+
+@media (max-width: 475px){
+  header h1{
+    font-size: 2.5em;
   }
 }

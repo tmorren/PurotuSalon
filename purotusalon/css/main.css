@@ -162,6 +162,8 @@
 /******************/
   #contactSection{
     background-color: white;
+    padding-top: 2em;
+    padding-bottom: 4em;
   }
 
   #contactSection .col-span12{
@@ -179,6 +181,25 @@
       color: white;
   }
 
+  #contactSection #infoColumn{
+    padding-left: 2em;
+  }
+
+  @media (max-width: 1300px){
+    #contactSection .col-span5{
+      width: 100%;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+    #contactSection iframe{
+      max-width: 100%;
+    }
+
+    #contactSection #infoColumn{
+      padding-top: 2em;
+    }
+  }
 /*******************/
 /* Footer Section */
 /*****************/
